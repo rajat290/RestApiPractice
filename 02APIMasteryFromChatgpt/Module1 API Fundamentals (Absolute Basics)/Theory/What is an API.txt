@@ -1,0 +1,18 @@
+🔹 Lesson 1: What is an API?
+📌 Official Definition (Technical)
+An Api (Application Programming Interface) is a set of rules that allows two software applications to communicate with each other. it defines how requests and Response should be formatted so different systems can exchange data in a Structured way.
+
+EASY Explanation
+Imagine you’re at a restaurant 🍕.
+
+You (the user) want a pizza.
+The kitchen (server) makes the pizza, but you can’t go inside the kitchen.
+So, you call the waiter (API), tell them what you want, and they bring you the pizza from the kitchen!
+💡 The API is like the waiter—it takes your request to the server and brings back the response.
+
+🌍 Real-World Examples of APIs
+Google Maps API 🗺️ → Apps like Uber use this to show maps inside their app.
+Weather API 🌤️ → Websites like weather.com use APIs to fetch real-time weather data.
+Payment API 💳 → Stripe/PayPal APIs allow apps to process payments.
+YouTube API 🎥 → Developers use it to embed videos on websites.
+Social Media APIs 📲 → Twitter, Facebook, and Instagram APIs allow apps to fetch posts and comments.
