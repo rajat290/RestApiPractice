@@ -1,0 +1,30 @@
+📌 Official Definition (Technical)
+When an API request is made, the server responds with a status code and data (usually in JSON format). API responses can be:
+
+Successful (2xx) – The request was completed successfully.
+Client Errors (4xx) – The request was incorrect or missing required data.
+Server Errors (5xx) – Something went wrong on the server.
+Handling API responses correctly ensures that our application behaves as expected, even if something goes wrong.
+
+🧸 Explanation for a 5-Year-Old
+Imagine you order a pizza 🍕:
+
+If the pizza arrives hot and fresh, everything is great! ✅
+If they bring the wrong pizza, it's a client error (your order was incorrect). ❌
+If the pizza shop burns down, it's a server error (not your fault!). 🔥
+Similarly, APIs respond with different status codes based on what happened.
+
+🌍 Why is Handling API Responses Important?
+✅ Prevents app crashes when an API fails.
+✅ Shows helpful messages instead of a blank page.
+✅ Improves user experience by handling slow responses properly.
+✅ Helps developers debug errors easily.
+
+🔹 Understanding API Response Status Codes
+Status Code	Meaning	Example
+200 OK	Success	Data retrieved successfully
+201 Created	Success	New data added to the server
+400 Bad Request	Client Error	Missing or incorrect request data
+401 Unauthorized	Client Error	No permission (wrong API key, not logged in)
+404 Not Found	Client Error	The requested resource doesn't exist
+500 Internal Server Error	Server Error	The API is broken on the backend
