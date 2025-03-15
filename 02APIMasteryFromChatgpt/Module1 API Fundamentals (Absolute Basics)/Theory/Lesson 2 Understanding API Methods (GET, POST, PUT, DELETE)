@@ -1,0 +1,21 @@
+📌 Official Definition (Technical)
+API methods (also called HTTP methods) define what action we want to perform when communicating with an API.
+
+The most commonly used methods in REST APIs are:
+
+GET → Retrieve data from an API.
+POST → Send data to an API (Create new data).
+PUT → Update existing data in an API.
+DELETE → Remove data from an API.
+🧸 Explanation for a 5-Year-Old
+Imagine an API is like a library 📚.
+
+GET → You ask the librarian for a book (read data).
+POST → You donate a new book to the library (add new data).
+PUT → You replace an old book with a new edition (update existing data).
+DELETE → You remove a book from the library (delete data).
+🌍 Real-World Examples of API Methods
+✅ GET → Fetching Weather Data (A weather app retrieving today’s forecast)
+✅ POST → Creating a New User Account (Signing up for Facebook)
+✅ PUT → Updating Profile Info (Changing your email in a settings page)
+✅ DELETE → Removing an Account (Deleting your Instagram account)
