@@ -1,12 +1,19 @@
 🚀 API Mastery Roadmap: From Beginner to Pro
 🟢 Module 1: API Fundamentals (Absolute Basics)
-What is an API? (Technical & Simplified Explanation)
-Types of APIs: REST vs. GraphQL vs. SOAP vs. WebSockets
-API Methods: GET, POST, PUT, DELETE, PATCH (When & Why to Use Them)
-Understanding API Endpoints & Request-Response Cycle
-What is JSON? How Data is Structured in APIs
-How to Make API Calls using Fetch API in JavaScript
-Making API Calls using Axios (Why Axios Over Fetch?)
+L1.What is an API? (Technical & Simplified Explanation)
+L2.Types of APIs: REST vs. GraphQL vs. SOAP vs. WebSockets
+L3.API Methods: GET, POST, PUT, DELETE, PATCH (When & Why to Use Them)
+L4.Understanding API Endpoints & Request-Response Cycle
+Lesson 4.1: Handling Slow APIs & Using Async/Await for Cleaner Code
+L5.Sending Data to an API (POST Request) in JavaScript & React
+Lesson 5.1: Updating & Deleting Data Using APIs (PUT, PATCH, DELETE)
+L6. API Authentication BasicsJavaScript
+ Lesson 7.0: Handling API Errors & Timeouts
+L7.Making API Calls using Axios (Why Axios Over Fetch?)
+Lesson 8: API Security Best Practices
+ Lesson 9: Working with Third-Party APIs & OAuth Authentication
+Lesson 10: Building a Full CRUD App with an API (GET, POST, PUT, DELETE)
+
 Hands-on Exercise:
 Call a Public API (e.g., Weather API) and Display Data in the Console
 📌 Why This First?
