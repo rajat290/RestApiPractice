@@ -1,0 +1,6 @@
+ Lesson 5: Sending Data to an API (POST Request) in JavaScript & React
+
+  Official Definition (Technical)
+A POST request is used to send new data to an API.
+It allows us to create new records in a database.
+We send data in JSON format using the fetch() method with body and headers
