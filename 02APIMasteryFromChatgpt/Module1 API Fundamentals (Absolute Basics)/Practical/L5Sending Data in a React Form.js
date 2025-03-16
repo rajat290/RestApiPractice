@@ -36,3 +36,9 @@ const CreateUser = () => {
 }
 
 export default CreateUser;
+/*
+What’s New?
+✅ Controlled Inputs (useState) → Captures form data.
+✅ Handles Form Submission (onSubmit) → Sends data when form is submitted.
+✅ setMessage() → Displays success or error messages.
+*/
