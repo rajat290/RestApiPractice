@@ -27,7 +27,7 @@ const CreateUser = () => {
                 <input type="text" placeholder="Name" value={name} onChange={(e) => setName(e.target.value)} required />
                 <input type="email" placeholder="Email" value={email} onChange={(e) => setEmail(e.target.value)} required />
                 <button type="submit">Submit</button>
-<p> {message} </p>
+                <p> {message} </p>
             </form>
         </div>
     )

@@ -1,0 +1,17 @@
+Lesson 5.1: Updating & Deleting Data Using APIs (PUT, PATCH, DELETE)
+
+PUT REQUEST => it updates entire resource (object) in Api 
+PATCH REQUEST => it updates partial resource only specific fields (object) in Api
+DELETE REQUEST => it deletes resource (object) in Api
+
+
+Easy Explanation 
+1️⃣ PUT → Imagine you have a drawing 🎨, and you completely redraw it.
+2️⃣ PATCH → You only change the color of the hat 🎩 without redrawing the whole image.
+3️⃣ DELETE → You erase the drawing 🗑️ completely.
+
+
+Why is This Important?
+✅ PUT & PATCH allow users to update their profiles, change product details, etc.
+✅ DELETE helps in removing users, products, or unwanted data.
+✅ Essential for CRUD operations (Create, Read, Update, Delete) in applications.
