@@ -84,4 +84,4 @@ fetch('https://api.example.com/protected-data',{
 // API Key	Public APIs (e.g., weather data)	Low
 // Basic Auth	Internal APIs, quick authentication	Medium
 // JWT Token	User authentication, login systems	High
-// OAuth	Third-party login (Google, Facebook)	Very High
+// OAuth	Third-party login (Google, Facebook)	Very H
