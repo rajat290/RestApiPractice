@@ -1,0 +1,4 @@
+Next Steps (For Your Practice)
+Try replacing fetch() with axios.
+Display additional user details (email, phone).
+Add a search feature to filter users dynamically.
