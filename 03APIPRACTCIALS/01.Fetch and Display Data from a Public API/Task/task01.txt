@@ -1,0 +1,13 @@
+Task: Fetch and Display Data from a Public API
+📌 Task Description:
+You need to fetch user data from the JSONPlaceholder API and display user names in a list. The API provides dummy user data, and your task is to retrieve and display it in a React component.
+
+📝 Task Explanation:
+APIs provide structured data, but fetching and displaying that data in the UI is a crucial skill for any React developer. In this task, you'll use the fetch() method (or Axios) to retrieve data from an API and display it dynamically.
+
+This will involve:
+
+Fetching data from an API using fetch().
+Using React state (useState) to store the API response.
+Using React effects (useEffect) to trigger the API call on component mount.
+Rendering data dynamically using the .map() function
