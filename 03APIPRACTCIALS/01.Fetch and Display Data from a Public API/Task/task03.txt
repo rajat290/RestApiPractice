@@ -1,0 +1,24 @@
+Add a search feature to filter users dynamically.
+📌 Task Description:=>
+Add a search bar that allows users to filter the user list by name.
+
+📝 Task Explanation:=>
+Users will type a name into an input box.
+The list should update in real-time to show matching users.
+
+💡 How This Helps You in Real-World Development =>
+Every web app includes search functionality (e.g., searching for products, users, orders).
+Teaches controlled components in React (handling user input).
+Common interview question: "Implement a live search feature."
+
+🛠 Concepts Used =>
+React State (useState) to manage user input.
+Filtering an array using .filter().
+Handling form inputs in React.
+
+📚 Structured Learning Path =>
+To complete this task, review:
+
+React Controlled Components (useState to handle input fields).
+Filtering Data in JavaScript (using .filter()).
+Event Handling in React (onChange event for inputs).

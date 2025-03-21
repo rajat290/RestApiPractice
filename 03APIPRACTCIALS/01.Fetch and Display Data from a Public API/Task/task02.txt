@@ -1,4 +1,52 @@
 Next Steps (For Your Practice)
 Try replacing fetch() with axios.
+
+ Practice Task 1: Replace fetch() with axios
+📌 Task Description:
+Modify the previous code to use Axios instead of the Fetch API to get user data. Axios simplifies API requests by handling JSON conversion automatically.
+
+📝 Task Explanation:
+Axios is a third-party library that makes API calls easier and more readable.
+Unlike fetch(), Axios automatically converts responses to JSON.
+It provides better error handling and supports request timeouts.
+💡 How This Helps You in Real-World Development
+Many companies prefer Axios because of its built-in response handling.
+It reduces boilerplate code (no need for response.json()).
+It's widely used in large-scale applications.
+🛠 Concepts Used
+HTTP Requests with Axios
+Handling API responses
+React Hooks (useState, useEffect)
+
+📚 Structured Learning Path
+Before implementing Axios, make sure you understand:
+
+JavaScript Promises (how .then() and .catch() work).
+Differences Between Fetch and Axios (e.g., Axios handles errors better).
+React Hooks (useState, useEffect).
+
+
 Display additional user details (email, phone).
-Add a search feature to filter users dynamically.
+📌 Task Description:
+Modify the previous component to show additional user details such as email and phone number.
+
+📝 Task Explanation: =>
+
+Every user has more details available in the API response.
+You need to access and display email and phone.
+
+💡 How This Helps You in Real-World Development
+API responses contain multiple fields; understanding how to extract them is key.
+Interviewers often ask candidates to display different fields dynamically.
+Useful for dashboards, admin panels, and e-commerce product pages.
+
+🛠 Concepts Used
+Accessing API response properties.
+Updating JSX dynamically.
+
+📚 Structured Learning Path
+To complete this task, review:
+
+API Response Structure (understanding JSON objects).
+How to Access Object Properties in JavaScript (object.property).
+JSX Syntax for Rendering Dynamic Data (.map() method).
