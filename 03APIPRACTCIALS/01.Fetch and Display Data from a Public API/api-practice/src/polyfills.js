@@ -1,0 +1,10 @@
+import { Buffer } from 'buffer';
+import process from 'process';
+import assert from 'assert';
+import { Readable } from 'stream';
+import { URL, URLSearchParams } from 'url';
+import zlib from 'browserify-zlib';
+import querystring from 'querystring-es3';
+import path from 'path-browserify';
+import crypto from 'crypto-browserify';
+import stream from 'stream-browserify';

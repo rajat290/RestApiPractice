@@ -15,7 +15,7 @@ const Userlist = () => {
                 return response.json();
             })
             .then((data) => {
-        setUsers(data); //store api in state 
+                setUsers(data); //store api in state 
                 setUsers(data); //store api in state 
                 setloading(false);
 
@@ -33,6 +33,19 @@ const Userlist = () => {
             <ul> {users.map((user) => (
                 <li key={user.name}>{user.name}</li> // display user names
             ))}</ul>
+
+            <ul> {users.map((users) => (
+                <li key={users.id}>
+                    <strong> Name:</strong> {users.name} <br />
+                    <strong> Email: </strong> {users.email} <br />
+                    <strong> Phone: </strong> {users.phone} <br />
+                    <hr />
+
+                </li>
+
+            ))}
+
+            </ul>
         </div>
 
 
