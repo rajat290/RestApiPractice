@@ -48,6 +48,8 @@ const UserList = () => {
                   <p><strong>Company:</strong> {user.company.name}</p>
                   <p><strong>Website:</strong> {user.website}</p>
                   <p><strong>Address:</strong> {user.address.street}, {user.address.city}</p>
+                 
+
                 </div>
               )}
               <hr />
