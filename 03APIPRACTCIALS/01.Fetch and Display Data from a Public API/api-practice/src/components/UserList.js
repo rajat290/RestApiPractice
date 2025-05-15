@@ -9,6 +9,12 @@ const UserList = () => {
   const [loading, setLoading] = useState(true); // Track loading state
 
   useEffect(() => {
+    // Fetch data from the API
+  //   fetch("https://jsonplaceholder.typicode.com/users")
+  //     .then((response) => response.json())
+  //     .then((data) => setUsers(data))
+  //     .catch((error) => console.error("Error fetching users:", error));
+  // }, []);
     axios
       .get("https://jsonplaceholder.typicode.com/users")
       .then((response) => {
